@@ -27,4 +27,4 @@ apidoc -i api/routes -o apidoc/ -t apidoc-template/
 - Generate Entities from your database
 ```shell
 sequelize-auto -o "./models" -d 'DATABASE' -h localhost -u 'USER' -p 3306 -x 'PASSWORD' -e mysql
-``# server-api
+```
